@@ -10,3 +10,4 @@ DBA : Chepeau Vianney
 
 Equipe de developpement : Boumans Jimmy, Dorville Matthieu, Gauthier Florian,  Laera Jéremy, Mestreau Marine.
 
+Lien Discord : https://discord.gg/JbEt4M
