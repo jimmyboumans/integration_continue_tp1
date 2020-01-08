@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{B9DB891D-242A-44CF-8909-D8BAB753CA70}" Label="" LastModificationDate="1578495511" Name="ModeleConceptuelDonnees" Objects="38" Symbols="17" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" signature="CDM_DATA_MODEL_XML" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{B9DB891D-242A-44CF-8909-D8BAB753CA70}" Label="" LastModificationDate="1578495963" Name="ModeleConceptuelDonnees" Objects="47" Symbols="17" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" signature="CDM_DATA_MODEL_XML" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -12,7 +12,7 @@
 <a:Code>MODELECONCEPTUELDONNEES</a:Code>
 <a:CreationDate>1578494408</a:CreationDate>
 <a:Creator>vianney</a:Creator>
-<a:ModificationDate>1578495501</a:ModificationDate>
+<a:ModificationDate>1578495944</a:ModificationDate>
 <a:Modifier>vianney</a:Modifier>
 <a:PackageOptionsText>[FolderOptions]
 
@@ -807,8 +807,8 @@ CARD 0 Arial,8,N</a:FontList>
 <o:AssociationLinkSymbol Id="o8">
 <a:CreationDate>1578495101</a:CreationDate>
 <a:ModificationDate>1578495101</a:ModificationDate>
-<a:Rect>((120,16106), (10080,17310))</a:Rect>
-<a:ListOfPoints>((10080,17310),(120,17190))</a:ListOfPoints>
+<a:Rect>((120,16081), (10143,17322))</a:Rect>
+<a:ListOfPoints>((10143,17322),(120,17190))</a:ListOfPoints>
 <a:ArrowStyle>0</a:ArrowStyle>
 <a:LineColor>16744576</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -827,8 +827,8 @@ CARD 0 Arial,8,N</a:FontList>
 <o:AssociationLinkSymbol Id="o11">
 <a:CreationDate>1578495202</a:CreationDate>
 <a:ModificationDate>1578495202</a:ModificationDate>
-<a:Rect>((10046,9330), (11906,17460))</a:Rect>
-<a:ListOfPoints>((10230,17460),(10080,9330))</a:ListOfPoints>
+<a:Rect>((10080,9330), (12053,17500))</a:Rect>
+<a:ListOfPoints>((10451,17500),(10080,9330))</a:ListOfPoints>
 <a:ArrowStyle>0</a:ArrowStyle>
 <a:LineColor>16744576</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -847,8 +847,8 @@ CARD 0 Arial,8,N</a:FontList>
 <o:AssociationLinkSymbol Id="o14">
 <a:CreationDate>1578495207</a:CreationDate>
 <a:ModificationDate>1578495207</a:ModificationDate>
-<a:Rect>((8111,2010), (9971,9270))</a:Rect>
-<a:ListOfPoints>((9840,2010),(9900,9270))</a:ListOfPoints>
+<a:Rect>((8103,1989), (10026,9270))</a:Rect>
+<a:ListOfPoints>((10026,1989),(9900,9270))</a:ListOfPoints>
 <a:ArrowStyle>0</a:ArrowStyle>
 <a:LineColor>16744576</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -867,8 +867,8 @@ CARD 0 Arial,8,N</a:FontList>
 <o:AssociationLinkSymbol Id="o17">
 <a:CreationDate>1578495210</a:CreationDate>
 <a:ModificationDate>1578495511</a:ModificationDate>
-<a:Rect>((8460,-7169), (11010,1770))</a:Rect>
-<a:ListOfPoints>((9900,1770),(8460,-7169))</a:ListOfPoints>
+<a:Rect>((8460,-7169), (11080,1705))</a:Rect>
+<a:ListOfPoints>((10177,1705),(8460,-7169))</a:ListOfPoints>
 <a:ArrowStyle>0</a:ArrowStyle>
 <a:LineColor>16744576</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -950,7 +950,7 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:CreationDate>1578494796</a:CreationDate>
 <a:ModificationDate>1578495028</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((7620,15250), (12419,19249))</a:Rect>
+<a:Rect>((5097,14882), (14941,19620))</a:Rect>
 <a:LineColor>11184640</a:LineColor>
 <a:FillColor>16777136</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -971,7 +971,7 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:CreationDate>1578494796</a:CreationDate>
 <a:ModificationDate>1578495030</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((7320,130), (12119,4129))</a:Rect>
+<a:Rect>((3613,-238), (15825,4500))</a:Rect>
 <a:LineColor>11184640</a:LineColor>
 <a:FillColor>16777136</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1173,8 +1173,30 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Code>CLIENT</a:Code>
 <a:CreationDate>1578494796</a:CreationDate>
 <a:Creator>vianney</a:Creator>
-<a:ModificationDate>1578494830</a:ModificationDate>
+<a:ModificationDate>1578495944</a:ModificationDate>
 <a:Modifier>vianney</a:Modifier>
+<c:Attributes>
+<o:EntityAttribute Id="o44">
+<a:ObjectID>973F46D9-C994-4AF5-80D7-A185719EF823</a:ObjectID>
+<a:CreationDate>1578495852</a:CreationDate>
+<a:Creator>vianney</a:Creator>
+<a:ModificationDate>1578495944</a:ModificationDate>
+<a:Modifier>vianney</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o45"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o46">
+<a:ObjectID>67C34AEB-E405-40BB-B713-95ECC0BF11F1</a:ObjectID>
+<a:CreationDate>1578495852</a:CreationDate>
+<a:Creator>vianney</a:Creator>
+<a:ModificationDate>1578495944</a:ModificationDate>
+<a:Modifier>vianney</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o47"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
 </o:Entity>
 <o:Entity Id="o26">
 <a:ObjectID>D4A97828-3714-4BCD-9880-3315BA46802F</a:ObjectID>
@@ -1182,8 +1204,48 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Code>GROUPE</a:Code>
 <a:CreationDate>1578494796</a:CreationDate>
 <a:Creator>vianney</a:Creator>
-<a:ModificationDate>1578494839</a:ModificationDate>
+<a:ModificationDate>1578495845</a:ModificationDate>
 <a:Modifier>vianney</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o48">
+<a:ObjectID>843D1451-3435-4090-A3DB-774D7D993080</a:ObjectID>
+<a:Name>Identifiant_1</a:Name>
+<a:Code>IDENTIFIANT_1</a:Code>
+<a:CreationDate>1578495824</a:CreationDate>
+<a:Creator>vianney</a:Creator>
+<a:ModificationDate>1578495845</a:ModificationDate>
+<a:Modifier>vianney</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o49"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o48"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o49">
+<a:ObjectID>B966EC1D-D980-4D43-84EB-70ABEFFCB7C7</a:ObjectID>
+<a:CreationDate>1578495812</a:CreationDate>
+<a:Creator>vianney</a:Creator>
+<a:ModificationDate>1578495845</a:ModificationDate>
+<a:Modifier>vianney</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o50"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o51">
+<a:ObjectID>FBB549B9-3E57-4F31-A8A5-A9A7EE26364A</a:ObjectID>
+<a:CreationDate>1578495812</a:CreationDate>
+<a:Creator>vianney</a:Creator>
+<a:ModificationDate>1578495821</a:ModificationDate>
+<a:Modifier>vianney</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o52"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
 </o:Entity>
 </c:Entities>
 <c:DataItems>
@@ -1219,15 +1281,15 @@ LABL 0 Arial,8,N</a:FontList>
 </o:DataItem>
 <o:DataItem Id="o38">
 <a:ObjectID>1DE0BCCB-F078-4EE7-BA45-739B3BE40179</a:ObjectID>
-<a:Name>prixHtArticle</a:Name>
-<a:Code>PRIXHTARTICLE</a:Code>
+<a:Name>prixArticle</a:Name>
+<a:Code>PRIXARTICLE</a:Code>
 <a:CreationDate>1578494841</a:CreationDate>
 <a:Creator>vianney</a:Creator>
-<a:ModificationDate>1578494941</a:ModificationDate>
+<a:ModificationDate>1578495963</a:ModificationDate>
 <a:Modifier>vianney</a:Modifier>
 <a:DataType>DC</a:DataType>
 </o:DataItem>
-<o:DataItem Id="o44">
+<o:DataItem Id="o53">
 <a:ObjectID>BBB74B67-092C-4F07-A305-AA8F1FEFE1EA</a:ObjectID>
 <a:Name>idTva</a:Name>
 <a:Code>IDTVA</a:Code>
@@ -1237,7 +1299,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>vianney</a:Modifier>
 <a:DataType>I</a:DataType>
 </o:DataItem>
-<o:DataItem Id="o45">
+<o:DataItem Id="o54">
 <a:ObjectID>A2ED9B60-9F8B-46A7-8513-5515C29D41AD</a:ObjectID>
 <a:Name>tauxTva</a:Name>
 <a:Code>TAUXTVA</a:Code>
@@ -1266,6 +1328,46 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1578495501</a:ModificationDate>
 <a:Modifier>vianney</a:Modifier>
 <a:DataType>DC</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o50">
+<a:ObjectID>1F4472EE-920A-4E29-B257-475642E33A58</a:ObjectID>
+<a:Name>idGroupe</a:Name>
+<a:Code>IDGROUPE</a:Code>
+<a:CreationDate>1578495812</a:CreationDate>
+<a:Creator>vianney</a:Creator>
+<a:ModificationDate>1578495845</a:ModificationDate>
+<a:Modifier>vianney</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o52">
+<a:ObjectID>21FCD675-C13B-4D6F-8BD6-CEBA9C1ADF13</a:ObjectID>
+<a:Name>libelleGroupe</a:Name>
+<a:Code>LIBELLEGROUPE</a:Code>
+<a:CreationDate>1578495812</a:CreationDate>
+<a:Creator>vianney</a:Creator>
+<a:ModificationDate>1578495845</a:ModificationDate>
+<a:Modifier>vianney</a:Modifier>
+<a:DataType>TXT</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o45">
+<a:ObjectID>62F0383B-B393-4D49-893F-2BC49893036D</a:ObjectID>
+<a:Name>idClient</a:Name>
+<a:Code>IDCLIENT</a:Code>
+<a:CreationDate>1578495852</a:CreationDate>
+<a:Creator>vianney</a:Creator>
+<a:ModificationDate>1578495944</a:ModificationDate>
+<a:Modifier>vianney</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o47">
+<a:ObjectID>B7F00B2F-8C06-44B3-8D34-D1F9785A9E07</a:ObjectID>
+<a:Name>nomSocieteClient</a:Name>
+<a:Code>NOMSOCIETECLIENT</a:Code>
+<a:CreationDate>1578495852</a:CreationDate>
+<a:Creator>vianney</a:Creator>
+<a:ModificationDate>1578495944</a:ModificationDate>
+<a:Modifier>vianney</a:Modifier>
+<a:DataType>TXT</a:DataType>
 </o:DataItem>
 </c:DataItems>
 <c:Associations>
