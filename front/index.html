@@ -18,19 +18,20 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <input type="text" class="form-control" placeholder="Cherchez une pièce" style="margin-bottom: 10px; margin-top: 20px;" />
+                <input type="text" id="search" onkeyup="searchFunction()" class="form-control" placeholder="Cherchez une pièce ..." style="margin-bottom: 10px; margin-top: 20px;" />
             </div>
         </div>
         <div class="row">
             <div class="col">
-                <table class="table">
+                <table class="table" id="table">
                     <thead class="thead-dark">
                         <tr>
                             <th scope="col">#</th>
                             <th scope="col">Libellé</th>
                             <th scope="col">Catégorie</th>
                             <th scope="col">Référence</th>
-                            <th scope="col">Prix</th>
+                            <th scope="col">Prix de production</th>
+                            <th scope="col">Prix de vente</th>
                         </tr>
                     </thead>
                     <tbody id="tableBody" class="table-striped">
