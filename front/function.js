@@ -8,7 +8,7 @@ for (var i = 0; i < 5; i++) {
     tr.appendChild(th)
     for (var j = 0; j < 5; j++) {
         var td = document.createElement('td')
-        td.innerHTML = "testetest"
+        td.innerHTML = ":)"
         tr.appendChild(td)
     }
     tableBody.appendChild(tr)
