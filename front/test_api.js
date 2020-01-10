@@ -1,8 +1,8 @@
 // TODO: Refacto en cours
 const url = {
     articles : "https://pokeapi.co/api/v2/pokemon/1",
-    clients : "",
-    groupeContrat: "",
+    clients : "url here",
+    groupeContrat: "url here",
 } 
 
 // 
@@ -33,7 +33,8 @@ const api = {
 
         const xmlhttp = new XMLHttpRequest();
         xmlhttp.onreadystatechange = function() {
-    
+            
+            // TODO : Gérer les codes retour
             if (this.readyState == 4 && this.status == 200) {
                 const obj_resp = JSON.parse(this.responseText);
                 const string_resp = JSON.stringify(obj_resp);
