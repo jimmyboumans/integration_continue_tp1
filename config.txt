@@ -1,7 +1,0 @@
-Compte: vianney.chepeau@gmail.com; pwd: onvagagner33epsi
-
-Database name: jRudLYII0z
-Username: jRudLYII0z
-Password: RMb2vHe049
-Server: remotemysql.com
-Port: 3306
