@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{B9DB891D-242A-44CF-8909-D8BAB753CA70}" Label="" LastModificationDate="1578496599" Name="ModeleConceptuelDonnees" Objects="47" Symbols="17" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" signature="CDM_DATA_MODEL_XML" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{B9DB891D-242A-44CF-8909-D8BAB753CA70}" Label="" LastModificationDate="1578501836" Name="ModeleConceptuelDonnees" Objects="50" Symbols="17" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" signature="CDM_DATA_MODEL_XML" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -12,7 +12,7 @@
 <a:Code>MODELECONCEPTUELDONNEES</a:Code>
 <a:CreationDate>1578494408</a:CreationDate>
 <a:Creator>vianney</a:Creator>
-<a:ModificationDate>1578495944</a:ModificationDate>
+<a:ModificationDate>1578501826</a:ModificationDate>
 <a:Modifier>vianney</a:Modifier>
 <a:PackageOptionsText>[FolderOptions]
 
@@ -22,7 +22,377 @@ GenerationPath=
 GenerationOptions=
 GenerationTasks=
 GenerationTargets=
-GenerationSelections=</a:PackageOptionsText>
+GenerationSelections=
+
+[FolderOptions\CheckModel]
+
+[FolderOptions\CheckModel\Package]
+
+[FolderOptions\CheckModel\Package\GenrCircularityYes]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\GenrCircularityNo]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\ShortcutUniqCode]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Package\ChildShortcut]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine]
+
+[FolderOptions\CheckModel\Domaine\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\CheckNumParam]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\CheckPrecSupLng]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\CheckUndefDttp]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\CheckOtherDttp]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Information]
+
+[FolderOptions\CheckModel\Information\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Information\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Information\InfoNotUsed]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Information\InfoUsedSevTime]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Information\InfoDiffDomn]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Information\CheckNumParam]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Information\CheckPrecSupLng]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Information\CheckUndefDttp]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Information\CheckOtherDttp]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité]
+
+[FolderOptions\CheckModel\Entité\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\MaxLen - NAME]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\MaxLen - CODE]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\EnttNoAttrNo]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\EnttNbSerials]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\EnttNoAttrYes]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\EmptyCollYesYes]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\EnttSamePrnt]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\EnttMultInhr]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\EnttSevInhr]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\PidtfInhrAtt]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Attribut d&#39;entité]
+
+[FolderOptions\CheckModel\Entité.Attribut d&#39;entité\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Attribut d&#39;entité\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Identifiant]
+
+[FolderOptions\CheckModel\Entité.Identifiant\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Identifiant\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Identifiant\EmptyColl - PENTCOL]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Identifiant\CheckIncludeColl - Entt]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Identifiant\IdtfChildPIdtf]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation]
+
+[FolderOptions\CheckModel\Relation\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation\RlshReflexiveDeptYes]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation\RlshReflexiveDeptNo]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation\RlshBject]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation\RlshMnyMny]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation\RlshDepdChild]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association]
+
+[FolderOptions\CheckModel\Association\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\AsscNbLink]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\AsscNbIdLink1]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\AsscNbIdLink2]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\AsscIdPass]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\AsscBject]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\AsscMaxCard]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\AsscReflex]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\AsscMnyMny]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Héritage]
+
+[FolderOptions\CheckModel\Héritage\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Héritage\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Héritage\EmptyColl - CHILDCOL]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Réplication]
+
+[FolderOptions\CheckModel\Réplication\PartialReplication]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion]
+
+[FolderOptions\CheckModel\Règle de gestion\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion\EmptyColl - OBJCOL]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet étendu]
+
+[FolderOptions\CheckModel\Objet étendu\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet étendu\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien étendu]
+
+[FolderOptions\CheckModel\Lien étendu\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien étendu\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fichier]
+
+[FolderOptions\CheckModel\Fichier\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fichier\CheckPathExists]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes</a:PackageOptionsText>
 <a:ModelOptionsText>[ModelOptions]
 
 [ModelOptions\Conceptual options]
@@ -400,6 +770,7 @@ IndxThreshold=
 ClassPrefix=
 ColnFKName=%.3:PARENT%_%COLUMN%
 ColnFKNameUse=No
+PreserveMode=Yes
 
 [ModelOptions\Generate\Oom]
 CheckModel=Yes
@@ -417,7 +788,7 @@ NameToCode=No</a:ModelOptionsText>
 <a:Code>DIAGRAMME_1</a:Code>
 <a:CreationDate>1578494409</a:CreationDate>
 <a:Creator>vianney</a:Creator>
-<a:ModificationDate>1578495376</a:ModificationDate>
+<a:ModificationDate>1578501826</a:ModificationDate>
 <a:Modifier>vianney</a:Modifier>
 <a:DisplayPreferences>[DisplayPreferences]
 
@@ -807,8 +1178,8 @@ CARD 0 Arial,8,N</a:FontList>
 <o:AssociationLinkSymbol Id="o8">
 <a:CreationDate>1578495101</a:CreationDate>
 <a:ModificationDate>1578496144</a:ModificationDate>
-<a:Rect>((462,16098), (13323,17322))</a:Rect>
-<a:ListOfPoints>((13323,17322),(462,17190))</a:ListOfPoints>
+<a:Rect>((462,16077), (13374,17322))</a:Rect>
+<a:ListOfPoints>((13374,17322),(462,17190))</a:ListOfPoints>
 <a:ArrowStyle>0</a:ArrowStyle>
 <a:LineColor>16744576</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -827,8 +1198,8 @@ CARD 0 Arial,8,N</a:FontList>
 <o:AssociationLinkSymbol Id="o11">
 <a:CreationDate>1578495202</a:CreationDate>
 <a:ModificationDate>1578496173</a:ModificationDate>
-<a:Rect>((13631,9785), (15781,17500))</a:Rect>
-<a:ListOfPoints>((13631,17500),(14218,9785))</a:ListOfPoints>
+<a:Rect>((13808,9785), (15870,17500))</a:Rect>
+<a:ListOfPoints>((13808,17500),(14218,9785))</a:ListOfPoints>
 <a:ArrowStyle>0</a:ArrowStyle>
 <a:LineColor>16744576</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -866,9 +1237,9 @@ CARD 0 Arial,8,N</a:FontList>
 </o:AssociationLinkSymbol>
 <o:AssociationLinkSymbol Id="o17">
 <a:CreationDate>1578495210</a:CreationDate>
-<a:ModificationDate>1578496150</a:ModificationDate>
-<a:Rect>((12581,-7999), (15162,685))</a:Rect>
-<a:ListOfPoints>((14257,685),(12581,-7999))</a:ListOfPoints>
+<a:ModificationDate>1578497459</a:ModificationDate>
+<a:Rect>((13841,-7459), (15862,685))</a:Rect>
+<a:ListOfPoints>((14257,685),(13841,-7459))</a:ListOfPoints>
 <a:ArrowStyle>0</a:ArrowStyle>
 <a:LineColor>16744576</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -886,9 +1257,9 @@ CARD 0 Arial,8,N</a:FontList>
 </o:AssociationLinkSymbol>
 <o:AssociationLinkSymbol Id="o20">
 <a:CreationDate>1578495213</a:CreationDate>
-<a:ModificationDate>1578496150</a:ModificationDate>
-<a:Rect>((9757,-15937), (11677,-7326))</a:Rect>
-<a:ListOfPoints>((11677,-15937),(11569,-7326))</a:ListOfPoints>
+<a:ModificationDate>1578497459</a:ModificationDate>
+<a:Rect>((10649,-15937), (12829,-6786))</a:Rect>
+<a:ListOfPoints>((11677,-15937),(12829,-6786))</a:ListOfPoints>
 <a:ArrowStyle>0</a:ArrowStyle>
 <a:LineColor>16744576</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -904,9 +1275,49 @@ CARD 0 Arial,8,N</a:FontList>
 <o:AssociationLink Ref="o22"/>
 </c:Object>
 </o:AssociationLinkSymbol>
+<o:AssociationLinkSymbol Id="o23">
+<a:CreationDate>1578501826</a:CreationDate>
+<a:ModificationDate>1578501826</a:ModificationDate>
+<a:Rect>((-14460,8640), (-12534,17220))</a:Rect>
+<a:ListOfPoints>((-13920,17220),(-14460,8640))</a:ListOfPoints>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>ROLE 0 Arial,8,N
+CARD 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o5"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:AssociationSymbol Ref="o24"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:AssociationLink Ref="o25"/>
+</c:Object>
+</o:AssociationLinkSymbol>
+<o:AssociationLinkSymbol Id="o26">
+<a:CreationDate>1578501826</a:CreationDate>
+<a:ModificationDate>1578501826</a:ModificationDate>
+<a:Rect>((-15674,-240), (-13800,8280))</a:Rect>
+<a:ListOfPoints>((-14100,-240),(-13800,8280))</a:ListOfPoints>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>ROLE 0 Arial,8,N
+CARD 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o27"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:AssociationSymbol Ref="o24"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:AssociationLink Ref="o28"/>
+</c:Object>
+</o:AssociationLinkSymbol>
 <o:EntitySymbol Id="o5">
 <a:CreationDate>1578494793</a:CreationDate>
-<a:ModificationDate>1578494944</a:ModificationDate>
+<a:ModificationDate>1578497359</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
 <a:Rect>((-22105,13981), (-9335,20638))</a:Rect>
 <a:LineColor>11184640</a:LineColor>
@@ -922,12 +1333,12 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Entity Ref="o23"/>
+<o:Entity Ref="o29"/>
 </c:Object>
 </o:EntitySymbol>
 <o:EntitySymbol Id="o21">
 <a:CreationDate>1578494795</a:CreationDate>
-<a:ModificationDate>1578496150</a:ModificationDate>
+<a:ModificationDate>1578497359</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
 <a:Rect>((6069,-17099), (20693,-12361))</a:Rect>
 <a:LineColor>11184640</a:LineColor>
@@ -943,14 +1354,14 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Entity Ref="o24"/>
+<o:Entity Ref="o30"/>
 </c:Object>
 </o:EntitySymbol>
 <o:EntitySymbol Id="o9">
 <a:CreationDate>1578494796</a:CreationDate>
-<a:ModificationDate>1578496144</a:ModificationDate>
+<a:ModificationDate>1578497359</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((8277,14882), (18121,19620))</a:Rect>
+<a:Rect>((6258,14882), (20140,19620))</a:Rect>
 <a:LineColor>11184640</a:LineColor>
 <a:FillColor>16777136</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -964,12 +1375,12 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Entity Ref="o25"/>
+<o:Entity Ref="o31"/>
 </c:Object>
 </o:EntitySymbol>
 <o:EntitySymbol Id="o15">
 <a:CreationDate>1578494796</a:CreationDate>
-<a:ModificationDate>1578496150</a:ModificationDate>
+<a:ModificationDate>1578497359</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
 <a:Rect>((7693,-1258), (19905,3480))</a:Rect>
 <a:LineColor>11184640</a:LineColor>
@@ -985,7 +1396,7 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Entity Ref="o26"/>
+<o:Entity Ref="o32"/>
 </c:Object>
 </o:EntitySymbol>
 <o:AssociationSymbol Id="o6">
@@ -1003,7 +1414,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Association Ref="o27"/>
+<o:Association Ref="o33"/>
 </c:Object>
 </o:AssociationSymbol>
 <o:AssociationSymbol Id="o12">
@@ -1021,13 +1432,13 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Association Ref="o28"/>
+<o:Association Ref="o34"/>
 </c:Object>
 </o:AssociationSymbol>
 <o:AssociationSymbol Id="o18">
 <a:CreationDate>1578495057</a:CreationDate>
-<a:ModificationDate>1578496150</a:ModificationDate>
-<a:Rect>((7801,-8310), (17159,-5310))</a:Rect>
+<a:ModificationDate>1578497459</a:ModificationDate>
+<a:Rect>((9061,-7770), (18419,-4770))</a:Rect>
 <a:LineColor>16744576</a:LineColor>
 <a:FillColor>16765136</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1039,7 +1450,46 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Association Ref="o29"/>
+<o:Association Ref="o35"/>
+</c:Object>
+</o:AssociationSymbol>
+<o:EntitySymbol Id="o27">
+<a:CreationDate>1578501739</a:CreationDate>
+<a:ModificationDate>1578501804</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-20886,-2308), (-7314,2430))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o36"/>
+</c:Object>
+</o:EntitySymbol>
+<o:AssociationSymbol Id="o24">
+<a:CreationDate>1578501806</a:CreationDate>
+<a:ModificationDate>1578501809</a:ModificationDate>
+<a:Rect>((-16935,6180), (-11388,9659))</a:Rect>
+<a:LineColor>16744576</a:LineColor>
+<a:FillColor>16765136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Association Ref="o37"/>
 </c:Object>
 </o:AssociationSymbol>
 </c:Symbols>
@@ -1049,7 +1499,7 @@ LABL 0 Arial,8,N</a:FontList>
 <o:ConceptualDiagram Ref="o3"/>
 </c:DefaultDiagram>
 <c:Entities>
-<o:Entity Id="o23">
+<o:Entity Id="o29">
 <a:ObjectID>776F7FB4-D37D-4071-A992-C0AE31528DEB</a:ObjectID>
 <a:Name>Article</a:Name>
 <a:Code>ARTICLE</a:Code>
@@ -1058,7 +1508,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1578494941</a:ModificationDate>
 <a:Modifier>vianney</a:Modifier>
 <c:Identifiers>
-<o:Identifier Id="o30">
+<o:Identifier Id="o38">
 <a:ObjectID>673C26F0-8461-426D-8918-454526759814</a:ObjectID>
 <a:Name>Identifiant_1</a:Name>
 <a:Code>IDENTIFIANT_1</a:Code>
@@ -1067,15 +1517,15 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1578494941</a:ModificationDate>
 <a:Modifier>vianney</a:Modifier>
 <c:Identifier.Attributes>
-<o:EntityAttribute Ref="o31"/>
+<o:EntityAttribute Ref="o39"/>
 </c:Identifier.Attributes>
 </o:Identifier>
 </c:Identifiers>
 <c:PrimaryIdentifier>
-<o:Identifier Ref="o30"/>
+<o:Identifier Ref="o38"/>
 </c:PrimaryIdentifier>
 <c:Attributes>
-<o:EntityAttribute Id="o31">
+<o:EntityAttribute Id="o39">
 <a:ObjectID>05FA5690-70DA-4CD0-A848-8ABCB3A13F56</a:ObjectID>
 <a:CreationDate>1578494841</a:CreationDate>
 <a:Creator>vianney</a:Creator>
@@ -1083,42 +1533,42 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>vianney</a:Modifier>
 <a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
 <c:DataItem>
-<o:DataItem Ref="o32"/>
+<o:DataItem Ref="o40"/>
 </c:DataItem>
 </o:EntityAttribute>
-<o:EntityAttribute Id="o33">
+<o:EntityAttribute Id="o41">
 <a:ObjectID>A9789FF1-62AD-48F7-8048-E464C79336CD</a:ObjectID>
 <a:CreationDate>1578494841</a:CreationDate>
 <a:Creator>vianney</a:Creator>
 <a:ModificationDate>1578494941</a:ModificationDate>
 <a:Modifier>vianney</a:Modifier>
 <c:DataItem>
-<o:DataItem Ref="o34"/>
+<o:DataItem Ref="o42"/>
 </c:DataItem>
 </o:EntityAttribute>
-<o:EntityAttribute Id="o35">
+<o:EntityAttribute Id="o43">
 <a:ObjectID>61F8C162-CE6F-46D3-8956-D7BB9A1D8C67</a:ObjectID>
 <a:CreationDate>1578494841</a:CreationDate>
 <a:Creator>vianney</a:Creator>
 <a:ModificationDate>1578494941</a:ModificationDate>
 <a:Modifier>vianney</a:Modifier>
 <c:DataItem>
-<o:DataItem Ref="o36"/>
+<o:DataItem Ref="o44"/>
 </c:DataItem>
 </o:EntityAttribute>
-<o:EntityAttribute Id="o37">
+<o:EntityAttribute Id="o45">
 <a:ObjectID>61CF2648-447D-47C3-A5AF-37105139ABC1</a:ObjectID>
 <a:CreationDate>1578494841</a:CreationDate>
 <a:Creator>vianney</a:Creator>
 <a:ModificationDate>1578494941</a:ModificationDate>
 <a:Modifier>vianney</a:Modifier>
 <c:DataItem>
-<o:DataItem Ref="o38"/>
+<o:DataItem Ref="o46"/>
 </c:DataItem>
 </o:EntityAttribute>
 </c:Attributes>
 </o:Entity>
-<o:Entity Id="o24">
+<o:Entity Id="o30">
 <a:ObjectID>4C71F4BA-B987-4A0E-9F02-99F9028D26C1</a:ObjectID>
 <a:Name>ContratCadre</a:Name>
 <a:Code>CONTRATCADRE</a:Code>
@@ -1127,7 +1577,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1578495501</a:ModificationDate>
 <a:Modifier>vianney</a:Modifier>
 <c:Identifiers>
-<o:Identifier Id="o39">
+<o:Identifier Id="o47">
 <a:ObjectID>71C9C240-389E-4139-AFCB-164C366B233C</a:ObjectID>
 <a:Name>Identifiant_1</a:Name>
 <a:Code>IDENTIFIANT_1</a:Code>
@@ -1136,15 +1586,15 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1578495501</a:ModificationDate>
 <a:Modifier>vianney</a:Modifier>
 <c:Identifier.Attributes>
-<o:EntityAttribute Ref="o40"/>
+<o:EntityAttribute Ref="o48"/>
 </c:Identifier.Attributes>
 </o:Identifier>
 </c:Identifiers>
 <c:PrimaryIdentifier>
-<o:Identifier Ref="o39"/>
+<o:Identifier Ref="o47"/>
 </c:PrimaryIdentifier>
 <c:Attributes>
-<o:EntityAttribute Id="o40">
+<o:EntityAttribute Id="o48">
 <a:ObjectID>3E0B7538-AB7D-4BBF-8C03-D96576476079</a:ObjectID>
 <a:CreationDate>1578495431</a:CreationDate>
 <a:Creator>vianney</a:Creator>
@@ -1152,53 +1602,71 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>vianney</a:Modifier>
 <a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
 <c:DataItem>
-<o:DataItem Ref="o41"/>
+<o:DataItem Ref="o49"/>
 </c:DataItem>
 </o:EntityAttribute>
-<o:EntityAttribute Id="o42">
+<o:EntityAttribute Id="o50">
 <a:ObjectID>5E0A0565-20F6-4D44-9514-ADE9B6E5F095</a:ObjectID>
 <a:CreationDate>1578495431</a:CreationDate>
 <a:Creator>vianney</a:Creator>
 <a:ModificationDate>1578495501</a:ModificationDate>
 <a:Modifier>vianney</a:Modifier>
 <c:DataItem>
-<o:DataItem Ref="o43"/>
+<o:DataItem Ref="o51"/>
 </c:DataItem>
 </o:EntityAttribute>
 </c:Attributes>
 </o:Entity>
-<o:Entity Id="o25">
+<o:Entity Id="o31">
 <a:ObjectID>8BCB9753-2489-4CFB-92F0-ADA95CEC1840</a:ObjectID>
 <a:Name>Client</a:Name>
 <a:Code>CLIENT</a:Code>
 <a:CreationDate>1578494796</a:CreationDate>
 <a:Creator>vianney</a:Creator>
-<a:ModificationDate>1578495944</a:ModificationDate>
+<a:ModificationDate>1578497427</a:ModificationDate>
 <a:Modifier>vianney</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o52">
+<a:ObjectID>457142D2-0F13-4D70-9C42-FF154446427A</a:ObjectID>
+<a:Name>Identifiant_1</a:Name>
+<a:Code>IDENTIFIANT_1</a:Code>
+<a:CreationDate>1578497424</a:CreationDate>
+<a:Creator>vianney</a:Creator>
+<a:ModificationDate>1578497427</a:ModificationDate>
+<a:Modifier>vianney</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o53"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o52"/>
+</c:PrimaryIdentifier>
 <c:Attributes>
-<o:EntityAttribute Id="o44">
+<o:EntityAttribute Id="o53">
 <a:ObjectID>973F46D9-C994-4AF5-80D7-A185719EF823</a:ObjectID>
 <a:CreationDate>1578495852</a:CreationDate>
 <a:Creator>vianney</a:Creator>
-<a:ModificationDate>1578495944</a:ModificationDate>
+<a:ModificationDate>1578497427</a:ModificationDate>
 <a:Modifier>vianney</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
 <c:DataItem>
-<o:DataItem Ref="o45"/>
+<o:DataItem Ref="o54"/>
 </c:DataItem>
 </o:EntityAttribute>
-<o:EntityAttribute Id="o46">
+<o:EntityAttribute Id="o55">
 <a:ObjectID>67C34AEB-E405-40BB-B713-95ECC0BF11F1</a:ObjectID>
 <a:CreationDate>1578495852</a:CreationDate>
 <a:Creator>vianney</a:Creator>
 <a:ModificationDate>1578495944</a:ModificationDate>
 <a:Modifier>vianney</a:Modifier>
 <c:DataItem>
-<o:DataItem Ref="o47"/>
+<o:DataItem Ref="o56"/>
 </c:DataItem>
 </o:EntityAttribute>
 </c:Attributes>
 </o:Entity>
-<o:Entity Id="o26">
+<o:Entity Id="o32">
 <a:ObjectID>D4A97828-3714-4BCD-9880-3315BA46802F</a:ObjectID>
 <a:Name>Groupe</a:Name>
 <a:Code>GROUPE</a:Code>
@@ -1207,7 +1675,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1578495845</a:ModificationDate>
 <a:Modifier>vianney</a:Modifier>
 <c:Identifiers>
-<o:Identifier Id="o48">
+<o:Identifier Id="o57">
 <a:ObjectID>843D1451-3435-4090-A3DB-774D7D993080</a:ObjectID>
 <a:Name>Identifiant_1</a:Name>
 <a:Code>IDENTIFIANT_1</a:Code>
@@ -1216,15 +1684,15 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1578495845</a:ModificationDate>
 <a:Modifier>vianney</a:Modifier>
 <c:Identifier.Attributes>
-<o:EntityAttribute Ref="o49"/>
+<o:EntityAttribute Ref="o58"/>
 </c:Identifier.Attributes>
 </o:Identifier>
 </c:Identifiers>
 <c:PrimaryIdentifier>
-<o:Identifier Ref="o48"/>
+<o:Identifier Ref="o57"/>
 </c:PrimaryIdentifier>
 <c:Attributes>
-<o:EntityAttribute Id="o49">
+<o:EntityAttribute Id="o58">
 <a:ObjectID>B966EC1D-D980-4D43-84EB-70ABEFFCB7C7</a:ObjectID>
 <a:CreationDate>1578495812</a:CreationDate>
 <a:Creator>vianney</a:Creator>
@@ -1232,24 +1700,73 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>vianney</a:Modifier>
 <a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
 <c:DataItem>
-<o:DataItem Ref="o50"/>
+<o:DataItem Ref="o59"/>
 </c:DataItem>
 </o:EntityAttribute>
-<o:EntityAttribute Id="o51">
+<o:EntityAttribute Id="o60">
 <a:ObjectID>FBB549B9-3E57-4F31-A8A5-A9A7EE26364A</a:ObjectID>
 <a:CreationDate>1578495812</a:CreationDate>
 <a:Creator>vianney</a:Creator>
 <a:ModificationDate>1578495821</a:ModificationDate>
 <a:Modifier>vianney</a:Modifier>
 <c:DataItem>
-<o:DataItem Ref="o52"/>
+<o:DataItem Ref="o61"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o36">
+<a:ObjectID>10D65A3E-A247-4852-97D0-FC74EE63AE98</a:ObjectID>
+<a:Name>TypeArticle</a:Name>
+<a:Code>TYPEARTICLE</a:Code>
+<a:CreationDate>1578501739</a:CreationDate>
+<a:Creator>vianney</a:Creator>
+<a:ModificationDate>1578501800</a:ModificationDate>
+<a:Modifier>vianney</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o62">
+<a:ObjectID>DC3A2ABC-ED28-41E3-9152-FDB954717529</a:ObjectID>
+<a:Name>Identifiant_1</a:Name>
+<a:Code>IDENTIFIANT_1</a:Code>
+<a:CreationDate>1578501741</a:CreationDate>
+<a:Creator>vianney</a:Creator>
+<a:ModificationDate>1578501800</a:ModificationDate>
+<a:Modifier>vianney</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o63"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o62"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o63">
+<a:ObjectID>A1838F00-53FB-4473-AAEE-73057C90C2A5</a:ObjectID>
+<a:CreationDate>1578501741</a:CreationDate>
+<a:Creator>vianney</a:Creator>
+<a:ModificationDate>1578501800</a:ModificationDate>
+<a:Modifier>vianney</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o64"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o65">
+<a:ObjectID>842046BB-9A6C-4271-A064-063BC3220E57</a:ObjectID>
+<a:CreationDate>1578501741</a:CreationDate>
+<a:Creator>vianney</a:Creator>
+<a:ModificationDate>1578501800</a:ModificationDate>
+<a:Modifier>vianney</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o66"/>
 </c:DataItem>
 </o:EntityAttribute>
 </c:Attributes>
 </o:Entity>
 </c:Entities>
 <c:DataItems>
-<o:DataItem Id="o32">
+<o:DataItem Id="o40">
 <a:ObjectID>53BB2F58-54A4-40E5-8E9C-F9EAD5F609EE</a:ObjectID>
 <a:Name>idArticle</a:Name>
 <a:Code>IDARTICLE</a:Code>
@@ -1259,7 +1776,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>vianney</a:Modifier>
 <a:DataType>I</a:DataType>
 </o:DataItem>
-<o:DataItem Id="o34">
+<o:DataItem Id="o42">
 <a:ObjectID>5DB15419-2A01-4215-B54E-9852BA1FCC0B</a:ObjectID>
 <a:Name>refArticle</a:Name>
 <a:Code>REFARTICLE</a:Code>
@@ -1269,7 +1786,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>vianney</a:Modifier>
 <a:DataType>TXT</a:DataType>
 </o:DataItem>
-<o:DataItem Id="o36">
+<o:DataItem Id="o44">
 <a:ObjectID>049C3F2A-A4EA-4226-888C-5CF02E337888</a:ObjectID>
 <a:Name>libelleArticle</a:Name>
 <a:Code>LIBELLEARTICLE</a:Code>
@@ -1279,7 +1796,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>vianney</a:Modifier>
 <a:DataType>TXT</a:DataType>
 </o:DataItem>
-<o:DataItem Id="o38">
+<o:DataItem Id="o46">
 <a:ObjectID>1DE0BCCB-F078-4EE7-BA45-739B3BE40179</a:ObjectID>
 <a:Name>prixArticle</a:Name>
 <a:Code>PRIXARTICLE</a:Code>
@@ -1289,7 +1806,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>vianney</a:Modifier>
 <a:DataType>DC</a:DataType>
 </o:DataItem>
-<o:DataItem Id="o53">
+<o:DataItem Id="o67">
 <a:ObjectID>BBB74B67-092C-4F07-A305-AA8F1FEFE1EA</a:ObjectID>
 <a:Name>idTva</a:Name>
 <a:Code>IDTVA</a:Code>
@@ -1299,7 +1816,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>vianney</a:Modifier>
 <a:DataType>I</a:DataType>
 </o:DataItem>
-<o:DataItem Id="o54">
+<o:DataItem Id="o68">
 <a:ObjectID>A2ED9B60-9F8B-46A7-8513-5515C29D41AD</a:ObjectID>
 <a:Name>tauxTva</a:Name>
 <a:Code>TAUXTVA</a:Code>
@@ -1309,7 +1826,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>vianney</a:Modifier>
 <a:DataType>DC</a:DataType>
 </o:DataItem>
-<o:DataItem Id="o41">
+<o:DataItem Id="o49">
 <a:ObjectID>E6DE7981-4BFC-42B6-AF03-F2BD616F224E</a:ObjectID>
 <a:Name>idContratCadre</a:Name>
 <a:Code>IDCONTRATCADRE</a:Code>
@@ -1319,7 +1836,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>vianney</a:Modifier>
 <a:DataType>I</a:DataType>
 </o:DataItem>
-<o:DataItem Id="o43">
+<o:DataItem Id="o51">
 <a:ObjectID>8C131C41-777A-453D-95E4-6B3218C10A67</a:ObjectID>
 <a:Name>tauxContratCadre</a:Name>
 <a:Code>TAUXCONTRATCADRE</a:Code>
@@ -1329,7 +1846,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>vianney</a:Modifier>
 <a:DataType>DC</a:DataType>
 </o:DataItem>
-<o:DataItem Id="o50">
+<o:DataItem Id="o59">
 <a:ObjectID>1F4472EE-920A-4E29-B257-475642E33A58</a:ObjectID>
 <a:Name>idGroupe</a:Name>
 <a:Code>IDGROUPE</a:Code>
@@ -1339,7 +1856,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>vianney</a:Modifier>
 <a:DataType>I</a:DataType>
 </o:DataItem>
-<o:DataItem Id="o52">
+<o:DataItem Id="o61">
 <a:ObjectID>21FCD675-C13B-4D6F-8BD6-CEBA9C1ADF13</a:ObjectID>
 <a:Name>libelleGroupe</a:Name>
 <a:Code>LIBELLEGROUPE</a:Code>
@@ -1349,7 +1866,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>vianney</a:Modifier>
 <a:DataType>TXT</a:DataType>
 </o:DataItem>
-<o:DataItem Id="o45">
+<o:DataItem Id="o54">
 <a:ObjectID>62F0383B-B393-4D49-893F-2BC49893036D</a:ObjectID>
 <a:Name>idClient</a:Name>
 <a:Code>IDCLIENT</a:Code>
@@ -1359,7 +1876,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>vianney</a:Modifier>
 <a:DataType>I</a:DataType>
 </o:DataItem>
-<o:DataItem Id="o47">
+<o:DataItem Id="o56">
 <a:ObjectID>B7F00B2F-8C06-44B3-8D34-D1F9785A9E07</a:ObjectID>
 <a:Name>nomSocieteClient</a:Name>
 <a:Code>NOMSOCIETECLIENT</a:Code>
@@ -1369,9 +1886,29 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>vianney</a:Modifier>
 <a:DataType>TXT</a:DataType>
 </o:DataItem>
+<o:DataItem Id="o64">
+<a:ObjectID>5BA2231D-D9D8-47CD-8E48-7FCEA5F35B32</a:ObjectID>
+<a:Name>idTypeArticle</a:Name>
+<a:Code>IDTYPEARTICLE</a:Code>
+<a:CreationDate>1578501741</a:CreationDate>
+<a:Creator>vianney</a:Creator>
+<a:ModificationDate>1578501800</a:ModificationDate>
+<a:Modifier>vianney</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o66">
+<a:ObjectID>DB316E5D-9F13-4E81-A70B-AA9CD4303C6C</a:ObjectID>
+<a:Name>libelleTypeArticle</a:Name>
+<a:Code>LIBELLETYPEARTICLE</a:Code>
+<a:CreationDate>1578501741</a:CreationDate>
+<a:Creator>vianney</a:Creator>
+<a:ModificationDate>1578501800</a:ModificationDate>
+<a:Modifier>vianney</a:Modifier>
+<a:DataType>TXT</a:DataType>
+</o:DataItem>
 </c:DataItems>
 <c:Associations>
-<o:Association Id="o27">
+<o:Association Id="o33">
 <a:ObjectID>57575E30-0F04-4A58-833F-0F96D3817CCA</a:ObjectID>
 <a:Name>AchatClient</a:Name>
 <a:Code>ACHATCLIENT</a:Code>
@@ -1380,7 +1917,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1578496141</a:ModificationDate>
 <a:Modifier>vianney</a:Modifier>
 </o:Association>
-<o:Association Id="o28">
+<o:Association Id="o34">
 <a:ObjectID>6A8E9194-4D57-4D9C-9841-04CA63D46B44</a:ObjectID>
 <a:Name>ClientGroupe</a:Name>
 <a:Code>CLIENTGROUPE</a:Code>
@@ -1389,13 +1926,22 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1578496537</a:ModificationDate>
 <a:Modifier>vianney</a:Modifier>
 </o:Association>
-<o:Association Id="o29">
+<o:Association Id="o35">
 <a:ObjectID>87BDDF53-693B-4663-B273-021D6B295330</a:ObjectID>
 <a:Name>Correspondre</a:Name>
 <a:Code>CORRESPONDRE</a:Code>
 <a:CreationDate>1578495057</a:CreationDate>
 <a:Creator>vianney</a:Creator>
 <a:ModificationDate>1578496560</a:ModificationDate>
+<a:Modifier>vianney</a:Modifier>
+</o:Association>
+<o:Association Id="o37">
+<a:ObjectID>827E1818-958C-486A-B305-CBFB63373593</a:ObjectID>
+<a:Name>Posseder</a:Name>
+<a:Code>POSSEDER</a:Code>
+<a:CreationDate>1578501806</a:CreationDate>
+<a:Creator>vianney</a:Creator>
+<a:ModificationDate>1578501822</a:ModificationDate>
 <a:Modifier>vianney</a:Modifier>
 </o:Association>
 </c:Associations>
@@ -1408,10 +1954,10 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>vianney</a:Modifier>
 <a:Cardinality>0,n</a:Cardinality>
 <c:Object1>
-<o:Association Ref="o27"/>
+<o:Association Ref="o33"/>
 </c:Object1>
 <c:Object2>
-<o:Entity Ref="o23"/>
+<o:Entity Ref="o29"/>
 </c:Object2>
 </o:AssociationLink>
 <o:AssociationLink Id="o10">
@@ -1422,10 +1968,10 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>vianney</a:Modifier>
 <a:Cardinality>0,n</a:Cardinality>
 <c:Object1>
-<o:Association Ref="o27"/>
+<o:Association Ref="o33"/>
 </c:Object1>
 <c:Object2>
-<o:Entity Ref="o25"/>
+<o:Entity Ref="o31"/>
 </c:Object2>
 </o:AssociationLink>
 <o:AssociationLink Id="o13">
@@ -1436,10 +1982,10 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>vianney</a:Modifier>
 <a:Cardinality>0,1</a:Cardinality>
 <c:Object1>
-<o:Association Ref="o28"/>
+<o:Association Ref="o34"/>
 </c:Object1>
 <c:Object2>
-<o:Entity Ref="o25"/>
+<o:Entity Ref="o31"/>
 </c:Object2>
 </o:AssociationLink>
 <o:AssociationLink Id="o16">
@@ -1450,10 +1996,10 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>vianney</a:Modifier>
 <a:Cardinality>0,n</a:Cardinality>
 <c:Object1>
-<o:Association Ref="o28"/>
+<o:Association Ref="o34"/>
 </c:Object1>
 <c:Object2>
-<o:Entity Ref="o26"/>
+<o:Entity Ref="o32"/>
 </c:Object2>
 </o:AssociationLink>
 <o:AssociationLink Id="o19">
@@ -1464,10 +2010,10 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>vianney</a:Modifier>
 <a:Cardinality>1,1</a:Cardinality>
 <c:Object1>
-<o:Association Ref="o29"/>
+<o:Association Ref="o35"/>
 </c:Object1>
 <c:Object2>
-<o:Entity Ref="o26"/>
+<o:Entity Ref="o32"/>
 </c:Object2>
 </o:AssociationLink>
 <o:AssociationLink Id="o22">
@@ -1478,10 +2024,38 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>vianney</a:Modifier>
 <a:Cardinality>1,1</a:Cardinality>
 <c:Object1>
-<o:Association Ref="o29"/>
+<o:Association Ref="o35"/>
 </c:Object1>
 <c:Object2>
-<o:Entity Ref="o24"/>
+<o:Entity Ref="o30"/>
+</c:Object2>
+</o:AssociationLink>
+<o:AssociationLink Id="o25">
+<a:ObjectID>DAF2D34B-93A8-49DB-B6E4-073A838C4C7C</a:ObjectID>
+<a:CreationDate>1578501826</a:CreationDate>
+<a:Creator>vianney</a:Creator>
+<a:ModificationDate>1578501836</a:ModificationDate>
+<a:Modifier>vianney</a:Modifier>
+<a:Cardinality>1,1</a:Cardinality>
+<c:Object1>
+<o:Association Ref="o37"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o29"/>
+</c:Object2>
+</o:AssociationLink>
+<o:AssociationLink Id="o28">
+<a:ObjectID>2ECD8AF3-3E30-45F1-93E1-9830CA3C24DF</a:ObjectID>
+<a:CreationDate>1578501826</a:CreationDate>
+<a:Creator>vianney</a:Creator>
+<a:ModificationDate>1578501826</a:ModificationDate>
+<a:Modifier>vianney</a:Modifier>
+<a:Cardinality>0,n</a:Cardinality>
+<c:Object1>
+<o:Association Ref="o37"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o36"/>
 </c:Object2>
 </o:AssociationLink>
 </c:AssociationsLinks>
