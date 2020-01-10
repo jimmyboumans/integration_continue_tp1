@@ -13,21 +13,12 @@ public class ContratCadre {
 		this.idContratCadre = idContratCadre;
 		this.tauxContratCadre = tauxContratCadre;
 	}
+	
 	public int getIdContratCadre() {
 		return idContratCadre;
 	}
-	public void setIdContratCadre(int idContratCadre) {
-		this.idContratCadre = idContratCadre;
-	}
+
 	public double getTauxContratCadre() {
 		return tauxContratCadre;
 	}
-	public void setTauxContratCadre(double tauxContratCadre) {
-		this.tauxContratCadre = tauxContratCadre;
-	}
-	
-
-   
-   
-
 }
