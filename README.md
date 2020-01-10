@@ -13,3 +13,5 @@ Equipe de developpement : Boumans Jimmy, Dorville Matthieu, Gautier Florian,  La
 Lien Discord : https://discord.gg/JbEt4M
 
 Lien Azure Devops : https://dev.azure.com/florianmarty/Integrum/_boards/board/t/Integrum%20Team/Stories
+
+Lien Doc de référence : [Documentation](https://github.com/jimmyboumans/integration_continue_tp1/blob/develop/src/doc/Projet_CI_word.docx)
