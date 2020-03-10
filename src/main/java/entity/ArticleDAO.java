@@ -32,11 +32,13 @@ public class ArticleDAO extends BaseDAO {
 				Article article = new Article(result.getInt("idArticle"), 
 						result.getString("refArticle"), 
 						result.getString("libelleArticle"),
-						result.getDouble("prixArticle"),
-						result.getInt("idTypeArticle"));
+						result.getDouble("prixArticle"));
+				TypeArticleDAO typeArticleDAO = new TypeArticleDAO(connection);
+				article.setTypeArticle(typeArticleDAO.getTypeArticleById(result.getInt("idTypeArticle")));
 
 			}
 
+			return articles;
 		} catch (SQLException e) {
 			e.printStackTrace();
 			throw e;

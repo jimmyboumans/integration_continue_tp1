@@ -29,6 +29,7 @@ public class TypeArticleDAO extends BaseDAO {
 		
 			result.close();
 			state.close();
+			return typeArticle;
 		} catch (SQLException e) {
 			e.printStackTrace();
 			throw e;

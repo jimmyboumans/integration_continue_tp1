@@ -16,6 +16,13 @@ public class Article {
 	@OneToOne
 	private TypeArticle typeArticle;
 	
+	public Article(int idArticle, String refArticle, String libelleArticle, double prixArticle) {
+		this.idArticle = idArticle;
+		this.refArticle = refArticle;
+		this.libelleArticle = libelleArticle;
+		this.prixArticle = prixArticle;
+	}
+
 	public int getIdArticle() {
 		return idArticle;
 	}
@@ -45,7 +52,5 @@ public class Article {
 	}
 	public void setTypeArticle(TypeArticle typeArticle) {
 		this.typeArticle = typeArticle;
-	}  
-	
-	
+	}	
 }

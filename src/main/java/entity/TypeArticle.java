@@ -9,7 +9,13 @@ public class TypeArticle {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int idTypeArticle;
-	private String libelleTypeArticle;  
+	private String libelleTypeArticle;  	
+	
+	public TypeArticle(int idTypeArticle, String libelleTypeArticle) {
+		super();
+		this.idTypeArticle = idTypeArticle;
+		this.libelleTypeArticle = libelleTypeArticle;
+	}
 
 	public int getIdTypeArticle() {
 		return idTypeArticle;
