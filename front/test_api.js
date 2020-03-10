@@ -23,14 +23,11 @@ const groupeContrat = {
     libelle: Number,
 }
 
-
 /*
 ** @method : getData(url)
 */
 const api = {
-
     getData(url) {
-
         const xmlhttp = new XMLHttpRequest();
         xmlhttp.onreadystatechange = function() {
             
@@ -52,16 +49,7 @@ const api = {
         
         xmlhttp.open('GET', url, true);
         xmlhttp.send();
-
     },
-
 }
 
 api.getData(url.articles);
-
-
-
-
-   
-
-
