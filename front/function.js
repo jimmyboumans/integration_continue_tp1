@@ -1,4 +1,8 @@
 var tableBody = document.getElementById("tableBody")
+let col_filter = 1
+document.getElementById("filter_libelle").addEventListener("click", changeFilter(1))
+document.getElementById("filter_categorie").addEventListener("click", changeFilter(2))
+document.getElementById("filter_prix_vente").addEventListener("click", changeFilter(5))
 
 for (var i = 0; i < 5; i++) {
     var tr = document.createElement('tr')
@@ -24,7 +28,7 @@ function searchFunction() {
     tr = table.getElementsByTagName("tr");
 
     for (i = 0; i < tr.length; i++) {
-        td = tr[i].getElementsByTagName("td")[1];
+        td = tr[i].getElementsByTagName("td")[col_filter];
         if (td) {
             txtValue = td.textContent || td.innerText;
             if (txtValue.toUpperCase().indexOf(filter) > -1) {
@@ -34,4 +38,8 @@ function searchFunction() {
             }
         }
     }
+}
+
+function changeFilter(nbr) {
+    col_filter = nbr
 }
