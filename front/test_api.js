@@ -1,5 +1,5 @@
 // TODO: Refacto en cours
-const url = {
+const urll = {
     articles: "http://localhost:3000/users",
     clients: "url here",
     groupeContrat: "url here",
@@ -20,5 +20,5 @@ function getData(url) {
     return results;
 }
 
-const resp = getData(url.articles)
-
+const resp = getData(urll.articles)
+console.log(resp)

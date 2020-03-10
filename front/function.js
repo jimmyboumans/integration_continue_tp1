@@ -1,8 +1,11 @@
+const url = {
+    articles: "http://localhost:3000/users",
+    clients: "url here",
+    groupeContrat: "url here",
+}
+
 var tableBody = document.getElementById("tableBody")
-let col_filter = 1
-document.getElementById("filter_libelle").addEventListener("click", changeFilter(1))
-document.getElementById("filter_categorie").addEventListener("click", changeFilter(2))
-document.getElementById("filter_prix_vente").addEventListener("click", changeFilter(5))
+var col_filter = 1
 
 for (var i = 0; i < 5; i++) {
     var tr = document.createElement('tr')
@@ -18,6 +21,10 @@ for (var i = 0; i < 5; i++) {
     tableBody.appendChild(tr)
 
 }
+
+getData(url.articles)
+
+makeAsserts();
 
 function searchFunction() {
 
@@ -42,4 +49,31 @@ function searchFunction() {
 
 function changeFilter(nbr) {
     col_filter = nbr
+}
+
+function getData(url) {
+    const xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function () {
+        // TODO : Gérer les codes retour
+        if (this.readyState == 4 && this.status == 200) {
+            const obj_resp = JSON.parse(this.responseText);
+
+        }
+    };
+    xmlhttp.open('GET', url, true);
+    xmlhttp.send();
+}
+
+function makeAsserts() {
+    table = document.getElementById("table");
+    tr = table.getElementsByTagName("tr");
+    console.log("Nombre de lignes : " + tr.length)
+    console.assert(tr.length == 6, "Le nombre de lignes est erroné")
+
+    var total = 0
+    for (i = 1; i < tr.length; i++) {
+        total += tr[i].getElementsByTagName("td")[4].textContent || tr[i].getElementsByTagName("td")[4].innerHTML;
+    }
+    console.log("Somme des prix de vente : " + total)
+    console.assert(total === 2000, "La somme des prix de ventes est erronée")
 }
