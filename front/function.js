@@ -7,24 +7,25 @@ const url = {
 var tableBody = document.getElementById("tableBody")
 var col_filter = 1
 
-for (var i = 0; i < 5; i++) {
-    var tr = document.createElement('tr')
-    var th = document.createElement('th')
-    th.setAttribute("scope", "row")
-    th.innerHTML = i + 1
-    tr.appendChild(th)
-    for (var j = 0; j < 5; j++) {
-        var td = document.createElement('td')
-        td.innerHTML = ":)"
-        tr.appendChild(td)
-    }
-    tableBody.appendChild(tr)
-
+async function createTab() {
+    const res = await getData(url.articles)
+    return new Promise(function (resolve, reject) {
+        for (var i = 0; i < res.length; i++) {
+            var tr = document.createElement('tr')
+            var th = document.createElement('th')
+            th.setAttribute("scope", "row")
+            th.innerHTML = i + 1
+            tr.appendChild(th)
+            for (var j = 0; j < Object.keys(res[i]).length; j++) {
+                var td = document.createElement('td')
+                td.innerHTML = res[i][Object.keys(res[i])[j]]
+                tr.appendChild(td)
+            }
+            tableBody.appendChild(tr)
+        }
+        resolve()
+    })
 }
-
-getData(url.articles)
-
-makeAsserts();
 
 function searchFunction() {
 
@@ -51,29 +52,26 @@ function changeFilter(nbr) {
     col_filter = nbr
 }
 
-function getData(url) {
-    const xmlhttp = new XMLHttpRequest();
-    xmlhttp.onreadystatechange = function () {
-        // TODO : Gérer les codes retour
-        if (this.readyState == 4 && this.status == 200) {
-            const obj_resp = JSON.parse(this.responseText);
-
-        }
-    };
-    xmlhttp.open('GET', url, true);
-    xmlhttp.send();
+async function getData(url) {
+    try {
+        const a = await fetch(url)
+        return a.json()
+    } catch (e) {
+        console.error(e)
+    }
 }
 
 function makeAsserts() {
-    table = document.getElementById("table");
-    tr = table.getElementsByTagName("tr");
+    tr = tableBody.getElementsByTagName("tr");
     console.log("Nombre de lignes : " + tr.length)
-    console.assert(tr.length == 6, "Le nombre de lignes est erroné")
+    console.assert(tr.length === 3, "Le nombre de lignes est erroné")
 
     var total = 0
-    for (i = 1; i < tr.length; i++) {
-        total += tr[i].getElementsByTagName("td")[4].textContent || tr[i].getElementsByTagName("td")[4].innerHTML;
+    for (i = 0; i < tr.length; i++) {
+        total += parseInt(tr[i].getElementsByTagName("td")[4].textContent || tr[i].getElementsByTagName("td")[4].innerHTML);
     }
     console.log("Somme des prix de vente : " + total)
-    console.assert(total === 2000, "La somme des prix de ventes est erronée")
+    console.assert(total === 1130, "La somme des prix de ventes est erronée")
 }
+
+createTab().then(() => makeAsserts())
