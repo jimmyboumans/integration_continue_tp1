@@ -36,3 +36,4 @@ target
 
 # fichiers macs
 .DS_store
+node_modules/
